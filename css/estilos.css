@@ -1,0 +1,180 @@
+body,html{margin: 0; padding: 0}
+
+body{
+max-width: 640px;
+}
+
+@font-face {
+    font-family:fedra;
+    src: url()}
+
+
+header{
+
+background-color: #00444d; 
+padding: 20px;
+
+
+}
+
+
+
+.logoheader{
+
+    display: inline-block; 
+    width: 15%; 
+    height: auto;
+
+}
+
+
+.titulo{
+
+    display: inline-block; 
+    margin-left: 25px; 
+    font-size: 21px; 
+    color: #e7ecef;
+    
+}
+    
+    
+    
+    
+
+
+.banner{
+
+    display: block; 
+    max-width: 100%;
+
+}
+
+.textolargo{
+
+    font-size: 16px; 
+    line-height: 1.5;
+     margin-bottom: 20px;
+     padding: 20px;
+     color: #39464e;
+    
+}
+
+.items{
+
+    font-size: 16px; 
+    line-height: 1.5;
+     margin-bottom: 20px; 
+     list-style: disc; 
+     padding-left: 40px;
+     display: inline-block;
+     color: #39464e;
+
+}
+
+section{
+
+    background-color: #e7ecef; 
+
+    
+}
+
+.link{
+
+    padding: 20px;
+   
+
+}
+
+
+
+
+
+
+footer{
+    background-color: #00444d;
+     padding: 20px;
+
+}
+
+
+.logofooter{
+    display: inline-block; 
+    width: 22%; 
+    height: auto;
+}
+
+
+.redes{
+
+    display: inline-block;
+     list-style: none; 
+     margin: 0; 
+     padding: 0; 
+     float: right;
+   
+    
+}
+
+
+.logoface{
+
+    display: inline-block; 
+    margin-right: 10px;
+    
+}
+
+
+
+.logotw{
+
+    display: inline-block; 
+    margin-right: 10px;
+
+}
+
+.logoig{
+
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 80px
+}
+
+.latinoamerica{
+
+   
+    
+    color: #e7ecef;
+    text-align: center;
+    margin-top: 20px;
+  
+    
+
+}
+
+
+
+@media(max-width:612px){
+
+    .logoheader{
+
+       justify-content: center;
+        width: 15%; 
+        height: auto;
+        margin-bottom: 10px;
+    text-align: center;
+    }
+
+    .titulo{
+
+        display: inline-block; 
+       margin-left: 8px;
+        font-size: 21px; 
+        color: #e7ecef;
+        
+    }
+}
+
+
+
+
+
